@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+ul, h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+}
+
+.cv-wrapper {
+	box-shadow: 0 3px 7px rgba(0, 0, 0, .1);
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background: linear-gradient(90deg, #002079, #2a228d);
+}
+
+.header img {
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.header-title,
+.header-subtitle {
+	margin: 10px 0;
+}
+
+.header-title {
+	color: #f1f1f1;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.header-subtitle {
+	color: #f1f1f1;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content {
+	width: 80%;
+	background-color: #e7e7e7;
+}
+
+.content-list {
+	padding: 10px 20px;
+}
+
+.content-item-title {
+	color: #ad0000;
+	padding: 5px 0;
+	margin: 10px 0 15px;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 1px solid #222222;
+}
+
+.short-information {
+	width: 20%;
+	padding: 10px 10px;
+	background-color: #d4d4d4;
+}
+
+.content-skills-inner {
+	padding: 10px 30px;
+}
+
+.content-skills-text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 27px;
+	position: relative;
+}
+
+.content-skills-text:before {
+	content: '';
+	background-color: #111111;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	left: -10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.content-text {
+	padding: 0 0 0 10px;
+}
+
+.content-list:last-child {
+	margin-bottom: 20px;
+}
+
+.information-title {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.email {
+	margin-bottom: 10px;
+}
+
+.email a {
+	display: block;
+	margin-top: 3px;
+}
+
+.email a:hover {
+	text-decoration: underline;
+}
+
+.telegram span {
+	margin-top: 3px;
+	display: block;
+}
+
+.footer {
+	background-color: #010249;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 12px;
+	color: #ffffff;
+}
