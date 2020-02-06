@@ -5,10 +5,86 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<title>CV</title>
 </head>
 
 <body>
+	<div class="container">
+		<div class="cv-wrapper">
+			<header class="header">
+				<div class="titles">
+					<h1 class="header-title">Ivan Klimenko</h1>
+					<h2 class="header-subtitle">Web Developer</h2>
+				</div>
+				<img src="src/img/dog.jpg" width="150" alt="Just a dog" class="header-picture">
+			</header>
+			<main class="main">
+				<section class="content">
+					<ul class="content-list">
+						<li class="content-list__item about">
+							<h4 class="content-item-title">About me</h4>
+							<p class="content-text content-about-text">My goal is to develop myself in programming because I really
+								enjoy it. I spend
+								almost all of my free time to get new
+								knowledge and to practice in development. Programming gives me a lot of opportunities, for example I can
+								create
+								something in my home with my laptop, and somebody on the different side of the planet can use it without
+								any
+								problems.
+								I've chosen frontend as a sphere because I can see result of my work with my eyes immediatly without any
+								special tools
+								for GUI. I study in Saint-Petersburg Mining University at the mineral processing faculty, but I
+								realized,
+								that I want to
+								be a developer more than a mining engineer.</p>
+						</li>
+						<li class="content-list__item skills">
+							<h4 class="content-item-title">Skills</h4>
+							<ul class="content-skills-inner">
+								<li class="content-text content-skills-text">HTML</li>
+								<li class="content-text content-skills-text">CSS</li>
+								<li class="content-text content-skills-text">JavaScript</li>
+								<li class="content-text content-skills-text">Webpack</li>
+								<li class="content-text content-skills-text">Git</li>
+								<li class="content-text content-skills-text">SASS</li>
+							</ul>
+						</li>
+						<li class="content-list__item experience">
+							<h4 class="content-item-title">Experience</h4>
+							<p class="content-text content-experience-text">I've created some training projects, you can find them in
+								my
+								GitHub
+								account.
+							</p>
+						</li>
+					</ul>
+				</section>
+				<aside class="short-information">
+					<ul class="short-information-list">
+						<li class="short-information-list__item contacts">
+							<h5 class="information-title">Contacts</h5>
+							<p class="information-text email"><strong>Email:</strong> <a
+									href="mailto:FrogonBr@gmail.com">FrogonBr@gmail.com</a></p>
+							<p class="information-text telegram"><strong>Telegram:</strong> <span>@mailikOnBr</span></p>
+						</li>
+						<li class="short-information-list__item english">
+							<h5 class="information-title">English</h5>
+							<p class="information-text">My English level is B1</p>
+						</li>
+					</ul>
+				</aside>
+			</main>
+		</div>
+		<footer class="footer">
+			<p class="footer-text">
+				I tried to make this cv look like the old static web-page without JavaScript or any other technology (except
+				HTML and CSS). I did it because I like this retro style and after all, this is a CV and it should ve serious.
+				Although I try to learn modern technology and use it in my projects. Thanks for your attention :)
+			</p>
+		</footer>
+	</div>
 
 </body>
 
