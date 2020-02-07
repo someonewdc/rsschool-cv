@@ -6,6 +6,7 @@
 
 body {
 	margin: 0;
+
 	font-family: Cambria, Arial, serif;
 }
 
@@ -20,14 +21,13 @@ ul, h1, h2, h3, h4, h5, h6, p {
 
 a {
 	text-decoration: none;
-	color: inherit
+	color: inherit;
 }
 
 .container {
 	width: 1024px;
 	margin: 0 auto;
 	padding: 0 15px;
-
 }
 
 .cv-wrapper {
@@ -38,6 +38,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 20px;
+
 	background: linear-gradient(90deg, #002079, #2a228d);
 }
 
@@ -52,9 +53,9 @@ a {
 }
 
 .header-title {
-	color: #f1f1f1;
-	font-size: 35px;
 	font-weight: 700;
+	font-size: 35px;
+	color: #f1f1f1;
 }
 
 .header-subtitle {
@@ -68,6 +69,7 @@ a {
 
 .content {
 	width: 80%;
+
 	background-color: #e7e7e7;
 }
 
@@ -76,18 +78,21 @@ a {
 }
 
 .content-item-title {
-	color: #ad0000;
 	padding: 5px 0;
 	margin: 10px 0 15px;
-	font-size: 20px;
+
 	font-weight: 700;
+	font-size: 20px;
+	color: #ad0000;
 	text-transform: uppercase;
+
 	border-bottom: 1px solid #222222;
 }
 
 .short-information {
 	width: 20%;
 	padding: 10px 10px;
+
 	background-color: #d4d4d4;
 }
 
@@ -96,21 +101,24 @@ a {
 }
 
 .content-skills-text {
+	position: relative;
+
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 27px;
-	position: relative;
 }
 
 .content-skills-text:before {
-	content: '';
-	background-color: #111111;
-	width: 5px;
-	height: 5px;
 	position: absolute;
 	left: -10px;
 	top: 50%;
 	transform: translateY(-50%);
+
+	width: 5px;
+	height: 5px;
+
+	content: '';
+	background-color: #111111;
 }
 
 .content-text {
@@ -122,10 +130,11 @@ a {
 }
 
 .information-title {
-	font-size: 20px;
-	font-weight: 700;
-	text-align: center;
 	margin: 15px 0;
+
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
 }
 
 .email {
@@ -142,14 +151,16 @@ a {
 }
 
 .telegram span {
-	margin-top: 3px;
 	display: block;
+	margin-top: 3px;
 }
 
 .footer {
-	background-color: #010249;
 	padding: 10px 20px;
+
 	text-align: center;
+
+	background-color: #010249;
 }
 
 .footer-text {
